@@ -1,0 +1,513 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.gambarLogo{
+    width: 50px;
+}
+
+.navbar {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.7s;
+}
+.navbar a:hover {
+    background-color: #d60000;
+    border-radius: 5px;
+}
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar .menu {
+    display: flex;
+    font-size: 30px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gambar1 {
+    width: 1903px;
+    background-attachment: fixed;
+}
+
+.judul{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 200px;
+    margin-top: -870px;
+    color: white;
+  }
+
+.gambar2 {
+    width: 1903px;
+    margin-top: 500px;
+    border-radius: 100px;
+}
+
+.section {
+    color: white;
+}
+
+.about {
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -1350px;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.aboutP {
+    margin-left: 150px;
+    margin-top: 5px;
+    padding-right: 900px;
+    font-size: 20px;
+}
+
+.angkaPembina {
+    margin-top: 80px;
+    font-size: 50px;
+    margin-left: 300px;
+    color: #d60000;
+}
+
+.pembina {
+    margin-left: 275px;
+    margin-top: 10px;
+}
+
+.angkaAnggota {
+    margin-top: -90px;
+    font-size: 50px;
+    margin-left: 700px;
+    color: #d60000;
+}
+
+.anggota {
+    margin-left: 690px;
+    margin-top: 10px;
+}
+
+.angkaAngkatan {
+    margin-top: -90px;
+    font-size: 50px;
+    margin-left: 1100px;
+    color: #d60000;
+}
+
+.angkatan {
+    margin-left: 1090px;
+    margin-top: 10px;
+}
+
+.angkaEskul {
+    margin-top: -90px;
+    font-size: 50px;
+    margin-left: 1515px;
+    color: #d60000;
+}
+
+.urutan {
+    margin-left: 1500px;
+    margin-top: 10px;
+}
+
+.data {
+    margin-top: 100px;
+}
+
+.logoCC {
+    margin-left: 1400px;
+    margin-top: -700px;
+    width: 350px;
+}
+
+.bold {
+    color: #d60000;
+    background: none;
+}
+
+.galeryH {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.galeryP {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.galeryd {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 180px;
+    align-items: center; 
+    margin-top: 60px;
+}
+
+.galeryd2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 180px;
+    align-items: center; 
+    margin-top: 60px;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px; 
+    height: 300px; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.25);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.perangkatH {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.perangkatP {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.perfotoan {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+
+.foto img {
+    width: 400px;
+    border-radius: 40px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Caption */
+.caption {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.bold2 {
+    color: #d60000;
+}
+
+.bold3 {
+    color: #d60000;
+}
+
+.bold4 {
+    color: #d60000;
+}
+
+.foto img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.joinH {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.joinP {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contactH {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+    color: #d60000;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+}
+
+.contactP {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactForm form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    color: white;
+}
+
+.contactForm label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contactForm button, .whatsappBtn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contactForm button {
+    background-color: #d60000;
+    color: white;
+    border: none;
+}
+
+.contactForm button:hover {
+    background-color: #a50000;
+}
+
+.whatsappBtn {
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsappBtn:hover {
+    background-color: #128c7e; /* WhatsApp dark green */
+}
+
+
+
+@media (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+   
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar .menu {
+        flex-direction: row;
+        align-items: flex-start;
+        font-size: 20px;
+    }
+    .navbar a {
+        padding: 10px;
+    }
+
+    .gambarLogo {
+        display: none;
+    }
+
+    
+    .gambar1 {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .judul {
+        margin-top: -200px;
+        font-size: 40px;
+    }
+
+  
+    .about {
+        margin-top: -1750px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .aboutP {
+        margin-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+
+    .logoCC{
+        display: none;
+    }
+
+  
+    .data {
+        display: none;
+    }
+    .angkaPembina, .angkaAnggota, .angkaAngkatan, .angkaEskul {
+        font-size: 30px;
+        text-align: center;
+    }
+    .pembina, .anggota, .angkatan, .urutan {
+        font-size: 16px;
+    }
+
+
+    .bungkus2 {
+        margin-top: -80px;
+    }
+
+    .galeryd {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+        margin-top: px;
+    }
+    
+    .gallery-item {
+        width: 90%;
+        height: auto;
+    }
+
+    .galeryH{
+        font-size: 40px;
+    }
+
+    .galeryP {
+        text-align: left;
+        display: none;
+    }
+
+    .galeryd2 {
+        display: none;
+    }
+
+ 
+    .perfotoan {
+        flex-direction: column; 
+        gap: 20px;
+        align-items: center;
+    }
+
+    .foto img {
+        width:350px;
+    }
+    
+
+    .joinH {
+        font-size: 40px;
+    }
+    .joinP {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contactH {
+        font-size: 40px;
+    }
+
+    .contactP {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .contactForm form {
+        width: 80%; 
+    }
+
+    .contactForm input, .contactForm textarea {
+        font-size: 18x;
+    }
+
+    .contactForm button {
+        font-size: 16px;
+    }
+
+    
+}
